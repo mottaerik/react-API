@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Tarefas from './tarefas/tarefas-componente.jsx';
 import Cabecalho from './componente-cabecalho/cabecalho.jsx'
 import ConsultaRAM from './consulta-ram/consulta-ram.jsx'
-import consultaPersonagens from './consulta-personagens/consultaPersonagens.jsx'
+import ConsultaPersonagens from './consulta-personagens/consultaPersonagens.jsx'
 
 const routes = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const routes = createBrowserRouter([
       },
       {
         path: '/consulta-personagens/:personagemId',
-        element: <consultaPersonagens />
+        element: <ConsultaPersonagens />
       },
       {
         path: '/consulta-ram',
