@@ -18,6 +18,10 @@ const routes = createBrowserRouter([
         element: <Tarefas />
       },
       {
+        path: '/mostra-episodios/:episodiosId',
+        element: <mostraEpisidios />
+      },
+      {
         path: '/consulta-personagens/:personagemId',
         element: <ConsultaPersonagens />
       },
